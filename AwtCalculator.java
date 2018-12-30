@@ -1,3 +1,4 @@
+//Java Calculator
 import javax.swing.*;
 import java.awt.*;
 import java.awt.Font;
@@ -9,9 +10,9 @@ class AwtCalculator implements ActionListener
   Font font = new Font("Didot", Font.PLAIN, 25);
   //constructor
   //---------------------Colors--------------------
-  Color c1 = new Color(255, 255, 255);            //Gray Backround
+  Color c1 = new Color(255, 255, 255);            
   Color c2 = new Color(124, 77, 255);
-  Color c3 = new Color(255,82, 82);               //Yello Button #FFEB3B
+  Color c3 = new Color(255,82, 82);              
   AwtCalculator()
   {
     JFrame frm = new JFrame("Calculator");
