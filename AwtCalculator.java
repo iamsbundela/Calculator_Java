@@ -11,8 +11,8 @@ class AwtCalculator implements ActionListener
   //constructor
   //---------------------Colors--------------------
   Color c1 = new Color(255, 255, 255);            
-  Color c2 = new Color(124, 77, 255);
-  Color c3 = new Color(255,82, 82);              
+  Color c2 = new Color(124, 77, 255);            
+  Color c3 = new Color(255,82, 82);       
   AwtCalculator()
   {
     JFrame frm = new JFrame("Calculator");
@@ -20,6 +20,7 @@ class AwtCalculator implements ActionListener
     frm.setLocation(100,100);
     frm.setLayout(null);
     frm.setVisible(true);
+    frm.setDefaultCloseOperation(3);
     //-------------Elements-------------------
     //TextField
     tf1 = new TextField(25);
