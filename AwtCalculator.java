@@ -19,8 +19,8 @@ class AwtCalculator implements ActionListener
     frm.setSize(500, 550);
     frm.setLocation(100,100);
     frm.setLayout(null);
-    frm.setVisible(true);
-    frm.setDefaultCloseOperation(3);
+    frm.setVisible(true);                   //For making Frame Visible
+    frm.setDefaultCloseOperation(3);        //Method to Close program 
     //-------------Elements-------------------
     //TextField
     tf1 = new TextField(25);
