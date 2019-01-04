@@ -8,11 +8,11 @@ class AwtCalculator implements ActionListener
   Button b1, b2, b3, b4, clr, exit;
   TextField tf1, tf2, tf3;
   Font font = new Font("Didot", Font.PLAIN, 25);
-  //constructor
   //---------------------Colors--------------------
   Color c1 = new Color(255, 255, 255);            
   Color c2 = new Color(124, 77, 255);            
   Color c3 = new Color(255,82, 82);       
+  //constructor
   AwtCalculator()
   {
     JFrame frm = new JFrame("Calculator");
